@@ -1,0 +1,7 @@
+C:\Users\BEAVERPC\Desktop\Важность\Коляга\МДК 02 Разработка програмных модулей\Практика\№1 Консоль. Линейная банковская задача\ConsoleBank\bin\Debug\ConsoleBank.exe.config
+C:\Users\BEAVERPC\Desktop\Важность\Коляга\МДК 02 Разработка програмных модулей\Практика\№1 Консоль. Линейная банковская задача\ConsoleBank\bin\Debug\ConsoleBank.exe
+C:\Users\BEAVERPC\Desktop\Важность\Коляга\МДК 02 Разработка програмных модулей\Практика\№1 Консоль. Линейная банковская задача\ConsoleBank\bin\Debug\ConsoleBank.pdb
+C:\Users\BEAVERPC\Desktop\Важность\Коляга\МДК 02 Разработка програмных модулей\Практика\№1 Консоль. Линейная банковская задача\ConsoleBank\obj\Debug\ConsoleBank.csproj.AssemblyReference.cache
+C:\Users\BEAVERPC\Desktop\Важность\Коляга\МДК 02 Разработка програмных модулей\Практика\№1 Консоль. Линейная банковская задача\ConsoleBank\obj\Debug\ConsoleBank.csproj.CoreCompileInputs.cache
+C:\Users\BEAVERPC\Desktop\Важность\Коляга\МДК 02 Разработка програмных модулей\Практика\№1 Консоль. Линейная банковская задача\ConsoleBank\obj\Debug\ConsoleBank.exe
+C:\Users\BEAVERPC\Desktop\Важность\Коляга\МДК 02 Разработка програмных модулей\Практика\№1 Консоль. Линейная банковская задача\ConsoleBank\obj\Debug\ConsoleBank.pdb
