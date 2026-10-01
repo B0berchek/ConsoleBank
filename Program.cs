@@ -27,12 +27,9 @@ namespace ConsoleBank
             BonusInPeriod = BonusInDay * Period;
             Console.WriteLine($"Ваш доход за период = {BonusInPeriod:F2}");
 
-            //Summa = Summa + BonusInPeriod
             Summa += BonusInPeriod;
             Console.WriteLine($"Ваша сумма на счету в конце периода = {Summa:F2}");
-
             
-
             Console.ReadKey();
         }
     }
