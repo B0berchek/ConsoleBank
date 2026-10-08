@@ -4,7 +4,10 @@ namespace ConsoleBank
 {
     internal class Program
     {
-        static Random rand = new Random();
+        const double BANKTHREEMONTH = 11.50; // 3 месяца
+        const double BANKSIXMONTH = 11.75; // 6 месяцев
+        const double BANKYEAR = 12.50; // год
+
         // Точка входа в программу
         static void Main(string[] args)
         {
@@ -24,13 +27,36 @@ namespace ConsoleBank
             Temp = Console.ReadLine();
             Summa = Convert.ToDouble(Temp);
 
-            Console.CursorLeft = 10;
+            rep: Console.CursorLeft = 10;
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.Write("Введите срок вклада -> ");
             Temp = Console.ReadLine();
             Period = Convert.ToInt32(Temp);
 
+            if (Period != 91 && Period!=181 && Period != 365)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Вы ошиблись со сроком. Повторите ещё раз");
+                goto rep;
+            }
+
+            if (Period == 91)
+            {
+                PercentBank = BANKTHREEMONTH;
+            }
+            else
+            {
+                if (Period == 181)
+                {
+                    PercentBank = BANKSIXMONTH;
+                }
+                else
+                {
+                    PercentBank = BANKYEAR;
+                }
+            }
+
             // Блок формирования сл. числа
-            PercentBank = 5.25 + rand.NextDouble() * 11.61;
             Console.CursorLeft = 10;
             Console.WriteLine("Ваш назначенный банковский % = {0:F2}", PercentBank); 
 
