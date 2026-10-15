@@ -40,20 +40,11 @@ namespace ConsoleBank
                 goto rep;
             }
 
-            if (Period == 91)
+            switch (Period)
             {
-                PercentBank = BANKTHREEMONTH;
-            }
-            else
-            {
-                if (Period == 181)
-                {
-                    PercentBank = BANKSIXMONTH;
-                }
-                else
-                {
-                    PercentBank = BANKYEAR;
-                }
+                case 91: PercentBank = BANKTHREEMONTH; break;
+                case 181: PercentBank = BANKTHREEMONTH; break;
+                case 365: PercentBank = BANKTHREEMONTH; break;
             }
 
             // Блок формирования сл. числа
