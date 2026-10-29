@@ -11,7 +11,7 @@ namespace ConsoleBank
         // Точка входа в программу
         static void Main(string[] args)
         {
-            // Блок объяления локлаьных величин
+            // Блок объяления локальных величин
             double summa, percentBank, bonusMonth, bonusInPeriod;
             int period, countMonth;
             string temp;
@@ -42,7 +42,6 @@ namespace ConsoleBank
                 }
             } while (period != 91 && period != 181 && period != 365);
 
-
             percentBank = 0;
             switch (period)
             {
@@ -54,7 +53,6 @@ namespace ConsoleBank
             // Блок формирования сл. числа
             Console.CursorLeft = 10;
             Console.WriteLine("Ваш назначенный банковский % = {0:N2}", percentBank);
-
 
             // Расчётный блок
             countMonth = period / 30;
@@ -68,12 +66,10 @@ namespace ConsoleBank
                 bonusInPeriod += bonusMonth;
 
                 Console.CursorLeft = 10;
-                Console.WriteLine($"Ваш ежемесячный доход в {month} месяц " +
-                    bonusMonth.ToString("N2") + " в рублях");
+                Console.WriteLine($"Ваш ежемесячный доход в {month} месяц " + bonusMonth.ToString("N2") + " в рублях");
 
                 Console.CursorLeft = 10;
-                Console.WriteLine($"Ваша сумма на счету в {month} месяц " +
-                    summa.ToString("N2") + " в рублях");
+                Console.WriteLine($"Ваша сумма на счету в {month} месяц " + summa.ToString("N2") + " в рублях");
             }
 
             // Результат
